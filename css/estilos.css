@@ -1,22 +1,27 @@
 body {
   background-color: #2b7a78;
   text-align: center;
+  margin: 0%;
 }
 .cabecero {
   background-color: #17252a;
   color: #def2f1;
   padding: 20px 20px;
-  width: fit-content;
+  width: 100% fit-content;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.titulo {
+.cabecero h1{
   font-family: "Racing Sans One", sans-serif;
   letter-spacing: 2px;
-  display: flex;
+  
   justify-content: center;
+  width: fit-content;  
   padding: 0px 50px;
-  margin: 0%;
+  margin: 0% auto;
   border: solid 3px #3aafa9;
   border-radius: 24px;
   
@@ -24,4 +29,5 @@ body {
 
 .cabecero p {
   font-family: "NTR", sans-serif;
+  margin: 0 auto;
 }
