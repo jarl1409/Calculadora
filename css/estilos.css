@@ -1,0 +1,15 @@
+body{
+    background-color: #2B7A78;
+    text-align: center;
+}
+.cabecero{
+    background-color: #17252A;
+    color: #DEF2F1;
+    margin: -10px -8px;
+}
+
+.cabecero h1{
+    font-family: "Racing Sans One", sans-serif;
+    letter-spacing: 2px;
+    margin: 10px;
+}
