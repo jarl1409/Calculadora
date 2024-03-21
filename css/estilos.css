@@ -101,6 +101,10 @@ height: 283px;
     grid-gap: 5px;
     margin: 10px 10px 0 0;
 }
+.botones:active{
+    background-color: #DEF2F1;
+    color: #17252A;
+}
 
 .numero .botones{
     width: 100%
