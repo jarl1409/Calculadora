@@ -1,15 +1,27 @@
-body{
-    background-color: #2B7A78;
-    text-align: center;
+body {
+  background-color: #2b7a78;
+  text-align: center;
 }
-.cabecero{
-    background-color: #17252A;
-    color: #DEF2F1;
-    margin: -10px -8px;
+.cabecero {
+  background-color: #17252a;
+  color: #def2f1;
+  padding: 20px 20px;
+  width: fit-content;
+  margin: 0 auto;
 }
 
-.cabecero h1{
-    font-family: "Racing Sans One", sans-serif;
-    letter-spacing: 2px;
-    margin: 10px;
+.titulo {
+  font-family: "Racing Sans One", sans-serif;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+  padding: 0px 50px;
+  margin: 0%;
+  border: solid 3px #3aafa9;
+  border-radius: 24px;
+  
+}
+
+.cabecero p {
+  font-family: "NTR", sans-serif;
 }
