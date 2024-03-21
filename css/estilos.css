@@ -70,5 +70,11 @@ body {
 
 .botones{
     font-family: "NTR", sans-serif;
-    font-size: 25px;   
+    font-size: 25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    background-color: #3AAFA9;
+    color: #FEFFFF;
+    margin: 1px;
 }
