@@ -78,3 +78,29 @@ body {
     color: #FEFFFF;
     margin: 1px;
 }
+
+form{
+    display: flex;
+}
+
+.lado_derecho button{
+height: 155px;
+}
+
+.lado_izquiero{
+    all: unset;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+}
+
+.numero{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+}
+
+.operandos{
+    margin-bottom: 0px;
+    padding: 10px;
+}
