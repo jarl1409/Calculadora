@@ -101,3 +101,7 @@ height: 283px;
     grid-gap: 5px;
     margin: 10px 10px 0 0;
 }
+
+.numero .botones{
+    width: 100%
+}
