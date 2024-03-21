@@ -83,24 +83,21 @@ form{
     display: flex;
 }
 
+.lado_izquierdo{
+    margin-left: 4px
+}
 .lado_derecho button{
-height: 155px;
+height: 283px;
 }
 
-.lado_izquiero{
-    all: unset;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 5px;
+.operandos{
+    margin: 0px 10px 10px 0;
+
 }
 
 .numero{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 5px;
-}
-
-.operandos{
-    margin-bottom: 0px;
-    padding: 10px;
+    margin: 10px 10px 0 0;
 }
