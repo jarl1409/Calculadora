@@ -3,6 +3,15 @@ var operandoB;
 var operacion;
 
 function init() {
+  var resultado = document.getElementById("resultado");
+  var reset = document.getElementById("reset");
+  var suma = document.getElementById("suma");
+  var resta = document.getElementById("resta");
+  var multiplicacion = document.getElementById("multiplicacion");
+  var division = document.getElementById("division");
+  var porcentaje = document.getElementById("porcentaje");
+  var igual = document.getElementById("igual");
+  var eliminar = document.getElementById("eliminar");
   var uno = document.getElementById("uno");
   var dos = document.getElementById("dos");
   var tres = document.getElementById("tres");
@@ -13,14 +22,6 @@ function init() {
   var ocho = document.getElementById("ocho");
   var nueve = document.getElementById("nueve");
   var cero = document.getElementById("cero");
-  var suma = document.getElementById("suma");
-  var resta = document.getElementById("resta");
-  var multiplicacion = document.getElementById("multiplicacion");
-  var division = document.getElementById("division");
-  var porcentaje = document.getElementById("porcentaje");
-  var igual = document.getElementById("igual");
-  var reset = document.getElementById("reset");
-  var eliminar = document.getElementById("eliminar");
 }
 uno.onclick = function (e) {
   resultado.textContent += "1";
@@ -63,7 +64,7 @@ suma.onclick = function (e) {
 };
 resta.onclick = function (e) {
   operandoA = resultado.textContent;
-  operacion = "-";
+  operacion = "-";  
   limpiar();
 };
 division.onclick = function (e) {
@@ -116,6 +117,3 @@ function resolver() {
   resultado.textContent = res;
 }
 
-document.addEventListener("DOMContentLoaded", function () {
-  init();
-});

@@ -12,7 +12,7 @@
     />
     <link rel="stylesheet" href="css/estilos.css" />
   </head>
-  <body onload="init()">
+  <body onload="init();">
     <div class="cabecero">
       <h1>Calculadora Sencilla</h1>
       <p>
@@ -25,7 +25,7 @@
         <div class="pantalla">
           <div class="mostrarResultado" id="resultado"></div>
         </div>
-        <form id="datos" onsubmit="return false">
+        <table>
           <div class="lado_izquierdo">
             <div class="operandos">
               <button class="botones" id="suma">+</button>
@@ -52,7 +52,7 @@
           <div class="lado_derecho">
             <button class="botones" id="igual">=</button>
           </div>
-        </form>
+        </table>
       </div>
     </section>
     <script src="js/operadores.js"></script>
